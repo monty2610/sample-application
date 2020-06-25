@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateEditForm component should match snapshot correctly 1`] = `
+<DocumentFragment>
+  <form
+    class=""
+  >
+    <div
+      class="form-group"
+    >
+      <label
+        class=""
+        for="title"
+      >
+        Title
+      </label>
+      <input
+        class="form-control"
+        id="title"
+        name="title"
+        placeholder="Write a Title"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="form-group"
+    >
+      <label
+        class=""
+        for="content"
+      >
+        Content
+      </label>
+      <textarea
+        class="form-control"
+        id="content"
+        name="content"
+        placeholder="Content goes here..."
+      />
+    </div>
+    <div
+      class="align-right"
+    >
+      <div>
+        <a
+          class="mr btn btn-secondary btn-sm"
+          href="/"
+        >
+          Back
+        </a>
+        <button
+          class="btn btn-primary btn-sm"
+          type="submit"
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`CreateEditForm component with initialValues prop should match snapshot correctly 1`] = `
+<DocumentFragment>
+  <form
+    class=""
+  >
+    <div
+      class="form-group"
+    >
+      <label
+        class=""
+        for="title"
+      >
+        Title
+      </label>
+      <input
+        class="form-control"
+        id="title"
+        name="title"
+        placeholder="Write a Title"
+        type="text"
+        value="test post"
+      />
+    </div>
+    <div
+      class="form-group"
+    >
+      <label
+        class=""
+        for="content"
+      >
+        Content
+      </label>
+      <textarea
+        class="form-control"
+        id="content"
+        name="content"
+        placeholder="Content goes here..."
+      >
+        test content
+      </textarea>
+    </div>
+    <div
+      class="align-right"
+    >
+      <div>
+        <a
+          class="mr btn btn-secondary btn-sm"
+          href="/"
+        >
+          Back
+        </a>
+        <button
+          class="btn btn-primary btn-sm"
+          type="submit"
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
